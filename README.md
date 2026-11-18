@@ -1,7 +1,7 @@
 # curt-openclaw
 
 Convert [OpenClaw](https://openclaw.ai) gateway session transcripts (file-based
-store) into [`.curt`](https://github.com/JordanNewell/dot_curt) single-file
+store) into [`.curt`](https://github.com/dotcurt/dot_curt) single-file
 conversation format. Built on
 [`curt-format`](https://www.npmjs.com/package/curt-format) (reference
 implementation, v1 core). Part of the `curt-*` converter family (`curt-convert`
@@ -163,11 +163,11 @@ convention. The staged `demos/` are synthetic only (see
 
 ## Part of the .curt suite
 
-- [`curt-format`](https://github.com/JordanNewell/dot_curt) — the .curt format spec + reference implementation ([npm](https://www.npmjs.com/package/curt-format))
-- [`curt-convert`](https://github.com/JordanNewell/curt-convert) — Claude Code transcripts → .curt ([npm](https://www.npmjs.com/package/curt-convert))
-- [`curt-wildchat`](https://github.com/JordanNewell/curt-wildchat) — WildChat-1M records → .curt ([npm](https://www.npmjs.com/package/curt-wildchat))
-- [`curt-vcon`](https://github.com/JordanNewell/curt-vcon) — .curt ⇄ vCon (IETF) bridge ([npm](https://www.npmjs.com/package/curt-vcon))
-- [`curt-openwith`](https://github.com/JordanNewell/curt-openwith) — double-click any .curt file: offline viewer, Windows + macOS + Linux
+- [`curt-format`](https://github.com/dotcurt/dot_curt) — the .curt format spec + reference implementation ([npm](https://www.npmjs.com/package/curt-format))
+- [`curt-convert`](https://github.com/dotcurt/curt-convert) — Claude Code transcripts → .curt ([npm](https://www.npmjs.com/package/curt-convert))
+- [`curt-wildchat`](https://github.com/dotcurt/curt-wildchat) — WildChat-1M records → .curt ([npm](https://www.npmjs.com/package/curt-wildchat))
+- [`curt-vcon`](https://github.com/dotcurt/curt-vcon) — .curt ⇄ vCon (IETF) bridge ([npm](https://www.npmjs.com/package/curt-vcon))
+- [`curt-openwith`](https://github.com/dotcurt/curt-openwith) — double-click any .curt file: offline viewer, Windows + macOS + Linux
 
 MIT — see [LICENSE](LICENSE). See also
 [ACCESS-AND-LICENSE.md](ACCESS-AND-LICENSE.md) for the input-data access and
